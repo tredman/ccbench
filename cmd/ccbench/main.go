@@ -24,7 +24,7 @@ var (
 	controlDBNumWorkers = flag.Int64("control_db_num_workers", 10, "")
 	controlDBDocSize    = flag.Int64("control_db_doc_size", 512, "")
 	controlDBScanLimit  = flag.Int("control_db_scan_limit", 1000, "")
-	rebuild             = flag.Bool("rebuid_dbs", false, "")
+	rebuild             = flag.Bool("rebuild_dbs", false, "")
 	runDuration         = flag.Duration("run_duration", time.Second*10, "run duration in seconds")
 	verbose             = flag.Bool("verbose", false, "print stats each second")
 )
